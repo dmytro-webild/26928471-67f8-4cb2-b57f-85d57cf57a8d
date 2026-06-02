@@ -30,8 +30,6 @@ export default function LandingPage() {
       description="Get ready to experience the juiciest, most creative smash burgers on wheels! Hand-smashed patties, secret sauces, and fresh ingredients for a flavor explosion."
       buttons={[
         {
-          text: "View Menu",          href: "#products"},
-        {
           text: "Find Our Truck",          href: "#contact"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780370577435-0gj35pxu.png"
@@ -86,8 +84,7 @@ export default function LandingPage() {
       title="Ready for the Ultimate Burger?"
       description="Follow us on social media for our weekly locations, special events, and menu updates! Catering options available too."
       inputPlaceholder="Enter your email"
-      buttonText="Subscribe!
-"
+      buttonText="Subscribe!\n"
       termsText="By subscribing you agree to receiving our promotional emails."
       onSubmit={() => alert("Order submitted!")}
     />
