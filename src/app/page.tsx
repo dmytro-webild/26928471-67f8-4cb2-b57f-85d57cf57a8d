@@ -64,7 +64,7 @@ export default function LandingPage() {
         {
           id: "p3",          name: "Carolina Crunch",          price: "",          variant: "Single/Double Patty with Pimento Cheese, Fried Onions and Bacon Jam.",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-gourmet-cheeseburger-with-fresh-vegetables-fries-generated-by-ai_188544-38732.jpg",          imageAlt: "A large BBQ bacon smash burger with onion rings"},
         {
-          id: "p4",          name: "Street Corn Smash",          price: "$13.00",          variant: "Single/Double Patty with Cotija Cheese, Elote-Style Corn Relish and Chipotle Mayo.",          imageSrc: "http://img.b2bpic.net/free-photo/street-food-still-life_23-2151535236.jpg",          imageAlt: "A smash burger topped with sautéed mushrooms and Swiss cheese"},
+          id: "p4",          name: "Street Corn Smash",          price: "",          variant: "Single/Double Patty with Cotija Cheese, Elote-Style Corn Relish and Chipotle Mayo.",          imageSrc: "http://img.b2bpic.net/free-photo/street-food-still-life_23-2151535236.jpg",          imageAlt: "A smash burger topped with sautéed mushrooms and Swiss cheese"},
         {
           id: "p5",          name: "Cyrpto Burger ",          price: "$11.00",          variant: "Single/Double Patty with Pepper Jack Cheese, Bacon, Jalapeño Cream Cheese and Bull Run Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hamburger-chopping-board-with-spinach-tomatoes-avocado-wooden-board_23-2148165610.jpg",          imageAlt: "A vegetarian smash burger with fresh toppings"}
       ]}
