@@ -2,11 +2,10 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import FooterLogoEmphasis from "@/components/sections/footer/FooterLogoEmphasis";
-import HeroLogo from "@/components/sections/hero/HeroLogo";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
+import ContactCenter from "@/components/sections/contact/ContactCenter";
 
-export default function LandingPage() {
+export default function ContactPage() {
   return (
     <ThemeProvider
       defaultButtonVariant="elastic-effect"
@@ -38,29 +37,19 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="hero" data-section="hero">
-          <HeroLogo
-            logoText="P3&E Street Eats"
-            description="Get ready to experience the juiciest, most creative smash burgers on wheels! Hand-smashed patties, secret sauces, and fresh ingredients for a flavor explosion."
-            buttons={[
-              {
-                text: "View Menu",                href: "/products"
-              },
-              {
-                text: "Find Our Truck",                href: "/contact"
-              }
-            ]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780370577435-0gj35pxu.png"
-            imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
-            showDimOverlay={true}
-          />
-        </div>
-
-        <div id="footer" data-section="footer">
-          <FooterLogoEmphasis
-            logoText="P3&E Street Eats"
-            columns={[]}
-            ariaLabel="Site footer"
+        <div id="contact" data-section="contact">
+          <ContactCenter
+            useInvertedBackground={true}
+            background={{
+              variant: "plain"
+            }}
+            tag="Get Smashed!"
+            title="Ready for the Ultimate Burger?"
+            description="Follow us on social media for our weekly locations, special events, and menu updates! Catering options available too."
+            inputPlaceholder="Enter your email"
+            buttonText="Order Now!"
+            termsText="By ordering you agree to our yummy terms."
+            onSubmit={() => alert("Order submitted!")}
           />
         </div>
       </ReactLenis>

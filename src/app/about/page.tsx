@@ -2,11 +2,10 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import FooterLogoEmphasis from "@/components/sections/footer/FooterLogoEmphasis";
-import HeroLogo from "@/components/sections/hero/HeroLogo";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
+import MediaAbout from "@/components/sections/about/MediaAbout";
 
-export default function LandingPage() {
+export default function AboutPage() {
   return (
     <ThemeProvider
       defaultButtonVariant="elastic-effect"
@@ -38,29 +37,14 @@ export default function LandingPage() {
           />
         </div>
 
-        <div id="hero" data-section="hero">
-          <HeroLogo
-            logoText="P3&E Street Eats"
-            description="Get ready to experience the juiciest, most creative smash burgers on wheels! Hand-smashed patties, secret sauces, and fresh ingredients for a flavor explosion."
-            buttons={[
-              {
-                text: "View Menu",                href: "/products"
-              },
-              {
-                text: "Find Our Truck",                href: "/contact"
-              }
-            ]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780370577435-0gj35pxu.png"
-            imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
-            showDimOverlay={true}
-          />
-        </div>
-
-        <div id="footer" data-section="footer">
-          <FooterLogoEmphasis
-            logoText="P3&E Street Eats"
-            columns={[]}
-            ariaLabel="Site footer"
+        <div id="about" data-section="about">
+          <MediaAbout
+            useInvertedBackground={false}
+            title="Our Smash-tastic Story"
+            description="Born from a passion for perfect patties and a love for local communities, P3&E Street Eats is more than just a food truck – it's a flavor revolution! We believe in fresh, quality ingredients and the simple joy of a perfectly seared, juicy burger. Join us on our journey to smash blandness and bring smiles!"
+            tag="About Us"
+            imageSrc="http://img.b2bpic.net/free-photo/grilled-salami-slices-grill-grid-wooden-table-with-vegetable_114579-88655.jpg"
+            imageAlt="Chef preparing smash burgers on a griddle"
           />
         </div>
       </ReactLenis>
