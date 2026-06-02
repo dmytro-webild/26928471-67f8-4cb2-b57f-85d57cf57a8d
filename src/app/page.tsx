@@ -58,15 +58,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "Classic Paddy Smash",          price: "",          variant: "Single/Double Patty with Cheese, Pickles and our Famous Paddy Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hands-holding-tasty-cheeseburger_23-2148374911.jpg",          imageAlt: "A classic smash burger with cheese, lettuce, and tomato"},
+          id: "p1",          name: "Classic Paddy Smash",          price: "",          variant: "Single/Double Patty with Cheese, Pickles and our Famous Paddy Sauce.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780373783871-0axtr3d4.png",          imageAlt: "A classic smash burger with cheese, lettuce, and tomato"},
         {
-          id: "p2",          name: "Jersey Boy",          price: "",          variant: "Single/Double Patty with Fried Taylor Ham, White American Cheese and a Fried Egg.",          imageSrc: "http://img.b2bpic.net/free-photo/creative-arrangement-with-hamburger_23-2148614114.jpg",          imageAlt: "A spicy smash burger with jalapeños and melted cheese"},
+          id: "p2",          name: "Jersey Boy",          price: "",          variant: "Single/Double Patty with Fried Taylor Ham, White American Cheese and a Fried Egg.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780373798204-ygkjoex4.png",          imageAlt: "A spicy smash burger with jalapeños and melted cheese"},
         {
-          id: "p3",          name: "Carolina Crunch",          price: "",          variant: "Single/Double Patty with Pimento Cheese, Fried Onions and Bacon Jam.",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-gourmet-cheeseburger-with-fresh-vegetables-fries-generated-by-ai_188544-38732.jpg",          imageAlt: "A large BBQ bacon smash burger with onion rings"},
+          id: "p3",          name: "Carolina Crunch",          price: "",          variant: "Single/Double Patty with Pimento Cheese, Fried Onions and Bacon Jam.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780373805633-bmjlgeet.png",          imageAlt: "A large BBQ bacon smash burger with onion rings"},
         {
-          id: "p4",          name: "Street Corn Smash",          price: "",          variant: "Single/Double Patty with Cotija Cheese, Elote-Style Corn Relish and Chipotle Mayo.",          imageSrc: "http://img.b2bpic.net/free-photo/street-food-still-life_23-2151535236.jpg",          imageAlt: "A smash burger topped with sautéed mushrooms and Swiss cheese"},
+          id: "p4",          name: "Street Corn Smash",          price: "",          variant: "Single/Double Patty with Cotija Cheese, Elote-Style Corn Relish and Chipotle Mayo.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780373812391-nupxmn38.png",          imageAlt: "A smash burger topped with sautéed mushrooms and Swiss cheese"},
         {
-          id: "p5",          name: "Cyrpto Burger ",          price: "",          variant: "Single/Double Patty with Pepper Jack Cheese, Bacon, Jalapeño Cream Cheese and Bull Run Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hamburger-chopping-board-with-spinach-tomatoes-avocado-wooden-board_23-2148165610.jpg",          imageAlt: "A vegetarian smash burger with fresh toppings"}
+          id: "p5",          name: "Cyrpto Burger ",          price: "",          variant: "Single/Double Patty with Pepper Jack Cheese, Bacon, Jalapeño Cream Cheese and Bull Run Sauce.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780373817934-wil1b604.png",          imageAlt: "A vegetarian smash burger with fresh toppings"}
       ]}
       title="Our Smash-tastic Menu"
       description="Prepare your taste buds for an unforgettable burger experience. Each creation is a work of art!"
