@@ -58,7 +58,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "Classic Paddy Smash",          price: "",          variant: "Single/Double Patty with Cheese and our Famous Paddy Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hands-holding-tasty-cheeseburger_23-2148374911.jpg",          imageAlt: "A classic smash burger with cheese, lettuce, and tomato"},
+          id: "p1",          name: "Classic Paddy Smash",          price: "",          variant: "Single/Double Patty with Cheese, Pickles and our Famous Paddy Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hands-holding-tasty-cheeseburger_23-2148374911.jpg",          imageAlt: "A classic smash burger with cheese, lettuce, and tomato"},
         {
           id: "p2",          name: "Jersey Boy",          price: "",          variant: "Single/Double Patty with Fried Taylor Ham, White American Cheese and a Fried Egg.",          imageSrc: "http://img.b2bpic.net/free-photo/creative-arrangement-with-hamburger_23-2148614114.jpg",          imageAlt: "A spicy smash burger with jalapeños and melted cheese"},
         {
