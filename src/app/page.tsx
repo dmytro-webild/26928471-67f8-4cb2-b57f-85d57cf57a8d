@@ -95,7 +95,7 @@ export default function LandingPage() {
       <FooterBase
       logoText="P3&E Street Eats"
       columns={[]}
-      copyrightText="© 2024 P3&E Street Eats. All rights reserved."
+      copyrightText="© 2026 P3&E Street Eats. All rights reserved."
       ariaLabel="Site footer"
     />
   </div>
