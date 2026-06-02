@@ -85,7 +85,7 @@ export default function LandingPage() {
       title="Ready for the Ultimate Burger?"
       description="Follow us on social media for our weekly locations, special events, and menu updates! Catering options available too."
       inputPlaceholder="Enter your email"
-      buttonText="Subscribe!\n"
+      buttonText="Subscribe!"
       termsText="By subscribing you agree to receiving our promotional emails."
       onSubmit={() => alert("Order submitted!")}
     />
