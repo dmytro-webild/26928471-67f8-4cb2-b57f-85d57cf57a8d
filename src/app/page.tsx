@@ -7,11 +7,9 @@ import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MediaAbout from '@/components/sections/about/MediaAbout';
-import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import { Cog, Leaf, Smile } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -120,27 +118,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="metrics" data-section="metrics">
-      <MetricCardOne
-      animationType="slide-up"
-      textboxLayout="default"
-      gridVariant="uniform-all-items-equal"
-      useInvertedBackground={true}
-      metrics={[
-        {
-          id: "m1",          value: "10,000+",          title: "Patties Smashed",          description: "Every single one grilled to perfection.",          icon: Cog,
-        },
-        {
-          id: "m2",          value: "5,000+",          title: "Happy Customers",          description: "Making taste buds sing, one burger at a time.",          icon: Smile,
-        },
-        {
-          id: "m3",          value: "100%",          title: "Freshness Guaranteed",          description: "Only the finest, locally sourced ingredients.",          icon: Leaf,
-        },
-      ]}
-      title="Our Flavorful Achievements"
-      description="Bringing smiles and deliciousness to every street corner!"
-    />
-  </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardSix
