@@ -26,7 +26,11 @@ export default function LandingPage() {
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
-      navItems={[]}
+      navItems={[
+        { name: "Menu", id: "#products" },
+        { name: "About Us", id: "#about" },
+        { name: "Find Our Truck", id: "#contact" }
+      ]}
       logoSrc="http://img.b2bpic.net/free-photo/realistic-burger-packaging-mockup_58466-18336.jpg"
       logoAlt="P3&E Street Eats Logo"
       brandName="P3&E Street Eats"
