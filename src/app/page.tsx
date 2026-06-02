@@ -8,7 +8,6 @@ import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 
 export default function LandingPage() {
   return (
@@ -34,8 +33,6 @@ export default function LandingPage() {
           name: "Our Story",          id: "#about"},
         {
           name: "Menu",          id: "#products"},
-        {
-          name: "Reviews",          id: "#testimonials"},
         {
           name: "Order Now",          id: "#contact"},
       ]}
@@ -101,29 +98,6 @@ export default function LandingPage() {
   </div>
 
 
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardSix
-      textboxLayout="default"
-      useInvertedBackground={false}
-      animationType="slide-up"
-      speed={40}
-      topMarqueeDirection="left"
-      testimonials={[
-        {
-          id: "t1",          name: "Burger Bob", handle: "@burgerbob", testimonial: "Absolutely incredible! The patties are juicy, the sauce is to die for, and the bun is perfectly toasted. A must-try!",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-taking-selfie-photo-winking_1262-18343.jpg",          imageAlt: "Bob's avatar"},
-        {
-          id: "t2",          name: "Patty Queen", handle: "@pattyqueen", testimonial: "Every bite is a burst of flavor. The Spicy Jalapeño Smash is my favorite, perfectly balanced heat. Can't wait for my next visit!",          imageSrc: "http://img.b2bpic.net/free-photo/black-man-casual-wear-checks-email-reads-world-news-electronic-device-drinks-morning-coffee-croissants_273609-8909.jpg",          imageAlt: "Patty's avatar"},
-        {
-          id: "t3",          name: "Grill Master Mike", handle: "@grillmikester", testimonial: "The retro theme is spot on, and the burgers transport you straight to a classic diner. High quality ingredients, friendly service. My new go-to!",          imageSrc: "http://img.b2bpic.net/free-photo/crazy-man-funny-expression_1194-3202.jpg",          imageAlt: "Mike's avatar"},
-        {
-          id: "t4",          name: "Hungry Holly", handle: "@hollyeats", testimonial: "I'm obsessed with the BBQ Bacon Beast! It's huge, flavorful, and incredibly satisfying. Worth every penny and every calorie!",          imageSrc: "http://img.b2bpic.net/free-photo/woman-chef-standing-with-crossed-arms-white-uniform-looking-confident_176474-43376.jpg",          imageAlt: "Holly's avatar"},
-        {
-          id: "t5",          name: "Veggie Valerie", handle: "@valerieveggie", testimonial: "As a vegetarian, finding a delicious smash burger is a dream. The Garden Smash is fresh, packed with flavor, and totally hit the spot!",          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-brunette-woman-wearing-casual-sweater-standing-red-background-pointing-fingers-camera-with-happy-funny-face-good-energy-vibes_839833-6469.jpg",          imageAlt: "Valerie's avatar"},
-      ]}
-      title="What Our Fans Are Saying"
-      description="Don't just take our word for it – hear from the happy bellies!"
-    />
-  </div>
 
   <div id="contact" data-section="contact">
       <ContactCenter
@@ -160,8 +134,6 @@ export default function LandingPage() {
               label: "Our Story",              href: "#about"},
             {
               label: "Locations",              href: "#contact"},
-            {
-              label: "Reviews",              href: "#testimonials"},
           ],
         },
         {
