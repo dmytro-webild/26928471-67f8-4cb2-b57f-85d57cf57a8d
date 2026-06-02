@@ -6,7 +6,6 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MediaAbout from '@/components/sections/about/MediaAbout';
-import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 
 export default function LandingPage() {
@@ -24,20 +23,6 @@ export default function LandingPage() {
         headingFontWeight="semibold"
     >
       <ReactLenis root>
-  <div id="nav" data-section="nav">
-      <NavbarLayoutFloatingOverlay
-      navItems={[
-        { name: "Menu", id: "#products" },
-        { name: "About Us", id: "#about" },
-        { name: "Find Our Truck", id: "#contact" }
-      ]}
-      logoSrc="http://img.b2bpic.net/free-photo/realistic-burger-packaging-mockup_58466-18336.jpg"
-      logoAlt="P3&E Street Eats Logo"
-      brandName="P3&E Street Eats"
-      button={{
-        text: "Find Us"}}
-    />
-  </div>
 
   <div id="hero" data-section="hero">
       <HeroLogo
