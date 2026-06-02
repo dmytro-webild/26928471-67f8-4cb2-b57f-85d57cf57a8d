@@ -88,7 +88,7 @@ export default function LandingPage() {
       inputPlaceholder="Enter your email"
       buttonText="Subscribe!
 "
-      termsText="By ordering you agree to our yummy terms."
+      termsText="By subscribing you agree to receiving our promotional emails."
       onSubmit={() => alert("Order submitted!")}
     />
   </div>
