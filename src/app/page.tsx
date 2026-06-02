@@ -60,8 +60,8 @@ export default function LandingPage() {
         {
           text: "Find Our Truck",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-woman-eating-burger-street-cafe-close-up_169016-43761.jpg"
-      imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
+      imageSrc="https://assets.aceternity.com/aceternity-food-truck-cartoon-50s-diner-style.webp"
+      imageAlt="Cartoon image of a 50s style diner themed food truck"
       showDimOverlay={true}
     />
   </div>
