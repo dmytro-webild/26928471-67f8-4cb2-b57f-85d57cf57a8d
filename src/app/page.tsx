@@ -117,36 +117,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       logoText="P3&E Street Eats"
-      columns={[
-        {
-          items: [
-            {
-              label: "Classic Smash",              href: "#products"},
-            {
-              label: "Spicy Options",              href: "#products"},
-            {
-              label: "Sides & Shakes",              href: "#products"},
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Our Story",              href: "#about"},
-            {
-              label: "Locations",              href: "#contact"},
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Facebook",              href: "#"},
-            {
-              label: "Instagram",              href: "#"},
-            {
-              label: "Contact Us",              href: "#contact"},
-          ],
-        },
-      ]}
+      columns={[]}
       ariaLabel="Site footer"
     />
   </div>
