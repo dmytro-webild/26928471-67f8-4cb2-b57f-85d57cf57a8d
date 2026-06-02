@@ -10,8 +10,8 @@ import { Public_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Smash Burger Bonanza - Creative Smash Burgers Food Truck',
-  description: 'Experience the juiciest, most creative smash burgers from our retro diner-style food truck. Fresh ingredients, secret sauces, and a super fun vibe!',
+  title: 'P3&E Street Eats - Creative Street Food Truck',
+  description: 'Experience the juiciest, most creative street food from our food truck. Fresh ingredients, secret sauces, and a super fun vibe!',
   keywords: ["smash burgers, food truck, retro diner, creative burgers, gourmet burgers, street food, delicious burgers, custom burgers, local food"],
   openGraph: {
     "title": "Smash Burger Bonanza - Creative Smash Burgers Food Truck",
