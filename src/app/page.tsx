@@ -80,15 +80,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "Classic Paddy Smash",          price: "$12.00",          variant: "Single/Double Patty with Cheese and our Famous Paddy Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hands-holding-tasty-cheeseburger_23-2148374911.jpg",          imageAlt: "A classic smash burger with cheese, lettuce, and tomato"},
+          id: "p1",          name: "The Classic Smash",          price: "$12.00",          variant: "Single/Double Patty",          imageSrc: "http://img.b2bpic.net/free-photo/hands-holding-tasty-cheeseburger_23-2148374911.jpg",          imageAlt: "A classic smash burger with cheese, lettuce, and tomato"},
         {
-          id: "p2",          name: "Jersey Boy",          price: "$13.50",          variant: "Single/Double Patty with Fried Taylor Ham, White American Cheese and a Fried Egg.",          imageSrc: "http://img.b2bpic.net/free-photo/creative-arrangement-with-hamburger_23-2148614114.jpg",          imageAlt: "A spicy smash burger with jalapeños and melted cheese"},
+          id: "p2",          name: "Spicy Jalapeño Smash",          price: "$13.50",          variant: "With Pepper Jack Cheese",          imageSrc: "http://img.b2bpic.net/free-photo/creative-arrangement-with-hamburger_23-2148614114.jpg",          imageAlt: "A spicy smash burger with jalapeños and melted cheese"},
         {
-          id: "p3",          name: "Carolina Crunch",          price: "$14.00",          variant: "Single/Double Patty with Pimento Cheese, Fried Onions and Bacon Jam.",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-gourmet-cheeseburger-with-fresh-vegetables-fries-generated-by-ai_188544-38732.jpg",          imageAlt: "A large BBQ bacon smash burger with onion rings"},
+          id: "p3",          name: "BBQ Bacon Beast",          price: "$14.00",          variant: "Smoky BBQ & Crispy Bacon",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-gourmet-cheeseburger-with-fresh-vegetables-fries-generated-by-ai_188544-38732.jpg",          imageAlt: "A large BBQ bacon smash burger with onion rings"},
         {
-          id: "p4",          name: "Street Corn Smash",          price: "$13.00",          variant: "Single/Double Patty with Cotija Cheese, Elote-Style Corn Relish and Chipotle Mayo.",          imageSrc: "http://img.b2bpic.net/free-photo/street-food-still-life_23-2151535236.jpg",          imageAlt: "A smash burger topped with sautéed mushrooms and Swiss cheese"},
+          id: "p4",          name: "Mushroom Swiss Delight",          price: "$13.00",          variant: "Sautéed Mushrooms & Swiss",          imageSrc: "http://img.b2bpic.net/free-photo/street-food-still-life_23-2151535236.jpg",          imageAlt: "A smash burger topped with sautéed mushrooms and Swiss cheese"},
         {
-          id: "p5",          name: "Cyrpto Burger ",          price: "$11.00",          variant: "Single/Double Patty with Pepper Jack Cheese, Bacon, Jalapeño Cream Cheese and Bull Run Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hamburger-chopping-board-with-spinach-tomatoes-avocado-wooden-board_23-2148165610.jpg",          imageAlt: "A vegetarian smash burger with fresh toppings"},
+          id: "p5",          name: "The Garden Smash",          price: "$11.00",          variant: "Plant-Based Patty",          imageSrc: "http://img.b2bpic.net/free-photo/hamburger-chopping-board-with-spinach-tomatoes-avocado-wooden-board_23-2148165610.jpg",          imageAlt: "A vegetarian smash burger with fresh toppings"},
         {
           id: "p6",          name: "Loaded Chili Cheese Fries",          price: "$8.00",          variant: "Crispy & Delicious",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-french-fries-with-sauces-dark-background-fast-food-meal-potato-dish-burger_140725-96448.jpg",          imageAlt: "Golden loaded chili cheese fries"},
       ]}
@@ -117,7 +117,36 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       logoText="P3&E Street Eats"
-      columns={[]}
+      columns={[
+        {
+          items: [
+            {
+              label: "Classic Smash",              href: "#products"},
+            {
+              label: "Spicy Options",              href: "#products"},
+            {
+              label: "Sides & Shakes",              href: "#products"},
+          ],
+        },
+        {
+          items: [
+            {
+              label: "Our Story",              href: "#about"},
+            {
+              label: "Locations",              href: "#contact"},
+          ],
+        },
+        {
+          items: [
+            {
+              label: "Facebook",              href: "#"},
+            {
+              label: "Instagram",              href: "#"},
+            {
+              label: "Contact Us",              href: "#contact"},
+          ],
+        },
+      ]}
       ariaLabel="Site footer"
     />
   </div>
