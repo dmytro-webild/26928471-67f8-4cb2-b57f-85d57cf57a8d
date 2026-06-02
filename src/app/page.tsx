@@ -82,11 +82,12 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{
         variant: "plain"}}
-      tag="Get Smashed!"
+      tag=""
       title="Ready for the Ultimate Burger?"
       description="Follow us on social media for our weekly locations, special events, and menu updates! Catering options available too."
       inputPlaceholder="Enter your email"
-      buttonText="Order Now!"
+      buttonText="Subscribe!
+"
       termsText="By ordering you agree to our yummy terms."
       onSubmit={() => alert("Order submitted!")}
     />
