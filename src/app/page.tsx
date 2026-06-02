@@ -70,6 +70,7 @@ export default function LandingPage() {
       ]}
       title="Our Smash-tastic Menu"
       description="Prepare your taste buds for an unforgettable burger experience. Each creation is a work of art!"
+      imageClassName="h-48 w-full object-cover sm:h-auto"
     />
   </div>
 
