@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCenter from '@/components/sections/contact/ContactCenter';
-import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
@@ -92,9 +92,10 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterLogoEmphasis
+      <FooterBase
       logoText="P3&E Street Eats"
       columns={[]}
+      copyrightText="© 2024 P3&E Street Eats. All rights reserved."
       ariaLabel="Site footer"
     />
   </div>
