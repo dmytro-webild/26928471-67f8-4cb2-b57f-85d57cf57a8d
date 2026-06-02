@@ -66,7 +66,7 @@ export default function LandingPage() {
         {
           id: "p4",          name: "Street Corn Smash",          price: "",          variant: "Single/Double Patty with Cotija Cheese, Elote-Style Corn Relish and Chipotle Mayo.",          imageSrc: "http://img.b2bpic.net/free-photo/street-food-still-life_23-2151535236.jpg",          imageAlt: "A smash burger topped with sautéed mushrooms and Swiss cheese"},
         {
-          id: "p5",          name: "Cyrpto Burger ",          price: "$11.00",          variant: "Single/Double Patty with Pepper Jack Cheese, Bacon, Jalapeño Cream Cheese and Bull Run Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hamburger-chopping-board-with-spinach-tomatoes-avocado-wooden-board_23-2148165610.jpg",          imageAlt: "A vegetarian smash burger with fresh toppings"}
+          id: "p5",          name: "Cyrpto Burger ",          price: "",          variant: "Single/Double Patty with Pepper Jack Cheese, Bacon, Jalapeño Cream Cheese and Bull Run Sauce.",          imageSrc: "http://img.b2bpic.net/free-photo/hamburger-chopping-board-with-spinach-tomatoes-avocado-wooden-board_23-2148165610.jpg",          imageAlt: "A vegetarian smash burger with fresh toppings"}
       ]}
       title="Our Smash-tastic Menu"
       description="Prepare your taste buds for an unforgettable burger experience. Each creation is a work of art!"
