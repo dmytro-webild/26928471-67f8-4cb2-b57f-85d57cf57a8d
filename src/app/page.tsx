@@ -3,7 +3,6 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCenter from '@/components/sections/contact/ContactCenter';
-import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MediaAbout from '@/components/sections/about/MediaAbout';
@@ -75,23 +74,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="features" data-section="features">
-      <FeatureCardMedia
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={true}
-      features={[
-        {
-          id: "f1",          title: "Fresh, Local Ingredients",          description: "We source the freshest produce and premium beef from local suppliers, ensuring quality and supporting our community.",          tag: "Quality",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-cheeseburger-hot-dog_23-2148258459.jpg",          imageAlt: "Fresh vegetables and burger ingredients"},
-        {
-          id: "f2",          title: "Signature Secret Sauce",          description: "Our legendary house-made sauce adds an irresistible tangy kick that perfectly complements every smash burger. You'll crave it!",          tag: "Flavor",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-cheesy-meat-burger-with-seasonings-dark-surface-bun-sandwich-fast-food_140725-82151.jpg",          imageAlt: "Secret sauce being drizzled on a burger"},
-        {
-          id: "f3",          title: "The Perfect Sizzle & Sear",          description: "Each patty is meticulously smashed on a scorching griddle, creating a caramelized crust and locking in maximum juiciness.",          tag: "Technique",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-cutting-burger-with-egg_23-2148678847.jpg",          imageAlt: "Perfectly seared smash burger patty on a griddle"},
-      ]}
-      title="Why Our Smash Burgers Reign Supreme"
-      description="Discover the delicious difference in every bite – from sizzling sear to gourmet toppings."
-    />
-  </div>
 
   <div id="products" data-section="products">
       <ProductCardFour
