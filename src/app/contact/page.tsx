@@ -23,10 +23,10 @@ export default function ContactPage() {
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingOverlay
             navItems={[
-              { name: "Home", href: "/" },
-              { name: "Menu", href: "/products" },
-              { name: "About Us", href: "/about" },
-              { name: "Find Our Truck", href: "/contact" }
+              { name: "Home", id: "/" },
+              { name: "Menu", id: "/products" },
+              { name: "About Us", id: "/about" },
+              { name: "Find Our Truck", id: "/contact" }
             ]}
             logoSrc="http://img.b2bpic.net/free-photo/realistic-burger-packaging-mockup_58466-18336.jpg"
             logoAlt="P3&E Street Eats Logo"
