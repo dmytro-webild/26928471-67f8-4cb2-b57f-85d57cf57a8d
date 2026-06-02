@@ -186,7 +186,7 @@ export default function LandingPage() {
       logoText="P3&E Street Eats"
       columns={[
         {
-          title: "Menu",          items: [
+          items: [
             {
               label: "Classic Smash",              href: "#products"},
             {
@@ -196,7 +196,7 @@ export default function LandingPage() {
           ],
         },
         {
-          title: "Company",          items: [
+          items: [
             {
               label: "Our Story",              href: "#about"},
             {
@@ -206,7 +206,7 @@ export default function LandingPage() {
           ],
         },
         {
-          title: "Connect",          items: [
+          items: [
             {
               label: "Facebook",              href: "#"},
             {
