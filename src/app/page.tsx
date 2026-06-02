@@ -2,30 +2,30 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
-import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import { Cog, Leaf, Smile } from "lucide-react";
 
 export default function LandingPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="elastic-effect"
-        defaultTextAnimation="background-highlight"
-        borderRadius="soft"
-        contentWidth="medium"
-        sizing="large"
-        background="none"
-        cardStyle="inset"
-        primaryButtonStyle="radial-glow"
-        secondaryButtonStyle="radial-glow"
-        headingFontWeight="normal"
+        defaultTextAnimation="entrance-slide"
+        borderRadius="rounded"
+        contentWidth="mediumSmall"
+        sizing="mediumSizeLargeTitles"
+        background="noise"
+        cardStyle="solid"
+        primaryButtonStyle="flat"
+        secondaryButtonStyle="solid"
+        headingFontWeight="semibold"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
@@ -143,20 +143,23 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialCardFive
+      <TestimonialCardSix
       textboxLayout="default"
       useInvertedBackground={false}
+      animationType="slide-up"
+      speed={40}
+      topMarqueeDirection="left"
       testimonials={[
         {
-          id: "t1",          name: "Burger Bob",          date: "May 15, 2024",          title: "Best Smash Burger in Town!",          quote: "Absolutely incredible! The patties are juicy, the sauce is to die for, and the bun is perfectly toasted. A must-try!",          tag: "Foodie Review",          avatarSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-taking-selfie-photo-winking_1262-18343.jpg",          avatarAlt: "Bob's avatar",          imageSrc: "http://img.b2bpic.net/free-photo/view-delicious-burger-with-french-fries_23-2150887849.jpg",          imageAlt: "Burger on a diner table"},
+          id: "t1",          name: "Burger Bob", handle: "@burgerbob", testimonial: "Absolutely incredible! The patties are juicy, the sauce is to die for, and the bun is perfectly toasted. A must-try!",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-taking-selfie-photo-winking_1262-18343.jpg",          imageAlt: "Bob's avatar"},
         {
-          id: "t2",          name: "Patty Queen",          date: "May 10, 2024",          title: "Flavor Explosion!",          quote: "Every bite is a burst of flavor. The Spicy Jalapeño Smash is my favorite, perfectly balanced heat. Can't wait for my next visit!",          tag: "Spice Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/black-man-casual-wear-checks-email-reads-world-news-electronic-device-drinks-morning-coffee-croissants_273609-8909.jpg",          avatarAlt: "Patty's avatar",          imageSrc: "http://img.b2bpic.net/free-photo/vibrant-alleyway-market-scene_23-2152004265.jpg",          imageAlt: "Food truck serving window"},
+          id: "t2",          name: "Patty Queen", handle: "@pattyqueen", testimonial: "Every bite is a burst of flavor. The Spicy Jalapeño Smash is my favorite, perfectly balanced heat. Can't wait for my next visit!",          imageSrc: "http://img.b2bpic.net/free-photo/black-man-casual-wear-checks-email-reads-world-news-electronic-device-drinks-morning-coffee-croissants_273609-8909.jpg",          imageAlt: "Patty's avatar"},
         {
-          id: "t3",          name: "Grill Master Mike",          date: "April 28, 2024",          title: "Authentic Diner Vibes!",          quote: "The retro theme is spot on, and the burgers transport you straight to a classic diner. High quality ingredients, friendly service. My new go-to!",          tag: "Retro Fan",          avatarSrc: "http://img.b2bpic.net/free-photo/crazy-man-funny-expression_1194-3202.jpg",          avatarAlt: "Mike's avatar",          imageSrc: "http://img.b2bpic.net/free-photo/last-preparations_1098-13460.jpg",          imageAlt: "Outdoor picnic table with burgers"},
+          id: "t3",          name: "Grill Master Mike", handle: "@grillmikester", testimonial: "The retro theme is spot on, and the burgers transport you straight to a classic diner. High quality ingredients, friendly service. My new go-to!",          imageSrc: "http://img.b2bpic.net/free-photo/crazy-man-funny-expression_1194-3202.jpg",          imageAlt: "Mike's avatar"},
         {
-          id: "t4",          name: "Hungry Holly",          date: "April 20, 2024",          title: "Seriously Satisfying!",          quote: "I'm obsessed with the BBQ Bacon Beast! It's huge, flavorful, and incredibly satisfying. Worth every penny and every calorie!",          tag: "Big Eaters",          avatarSrc: "http://img.b2bpic.net/free-photo/woman-chef-standing-with-crossed-arms-white-uniform-looking-confident_176474-43376.jpg",          avatarAlt: "Holly's avatar",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-silver-champagne-bottle-glass_23-2148356105.jpg",          imageAlt: "Diner counter with milkshakes"},
+          id: "t4",          name: "Hungry Holly", handle: "@hollyeats", testimonial: "I'm obsessed with the BBQ Bacon Beast! It's huge, flavorful, and incredibly satisfying. Worth every penny and every calorie!",          imageSrc: "http://img.b2bpic.net/free-photo/woman-chef-standing-with-crossed-arms-white-uniform-looking-confident_176474-43376.jpg",          imageAlt: "Holly's avatar"},
         {
-          id: "t5",          name: "Veggie Valerie",          date: "April 1, 2024",          title: "Amazing Plant-Based Option!",          quote: "As a vegetarian, finding a delicious smash burger is a dream. The Garden Smash is fresh, packed with flavor, and totally hit the spot!",          tag: "Veggie Friendly",          avatarSrc: "http://img.b2bpic.net/free-photo/young-beautiful-brunette-woman-wearing-casual-sweater-standing-red-background-pointing-fingers-camera-with-happy-funny-face-good-energy-vibes_839833-6469.jpg",          avatarAlt: "Valerie's avatar",          imageSrc: "http://img.b2bpic.net/free-photo/girl-going-food-truck_23-2148011740.jpg",          imageAlt: "Food truck at night with neon lights"},
+          id: "t5",          name: "Veggie Valerie", handle: "@valerieveggie", testimonial: "As a vegetarian, finding a delicious smash burger is a dream. The Garden Smash is fresh, packed with flavor, and totally hit the spot!",          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-brunette-woman-wearing-casual-sweater-standing-red-background-pointing-fingers-camera-with-happy-funny-face-good-energy-vibes_839833-6469.jpg",          imageAlt: "Valerie's avatar"},
       ]}
       title="What Our Fans Are Saying"
       description="Don't just take our word for it – hear from the happy bellies!"
@@ -164,24 +167,22 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
+      <ContactCenter
       useInvertedBackground={true}
       background={{
-        variant: "sparkles-gradient"}}
+        variant: "plain"}}
       tag="Get Smashed!"
       title="Ready for the Ultimate Burger?"
       description="Follow us on social media for our weekly locations, special events, and menu updates! Catering options available too."
-      buttons={[
-        {
-          text: "See Our Schedule",          href: "#"},
-        {
-          text: "Catering Inquiry",          href: "#"},
-      ]}
+      inputPlaceholder="Enter your email"
+      buttonText="Order Now!"
+      termsText="By ordering you agree to our yummy terms."
+      onSubmit={() => alert("Order submitted!")}
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseReveal
+      <FooterLogoEmphasis
       logoText="P3&E Street Eats"
       columns={[
         {
@@ -201,7 +202,7 @@ export default function LandingPage() {
             {
               label: "Locations",              href: "#contact"},
             {
-              label: "Testimonials",              href: "#testimonials"},
+              label: "Reviews",              href: "#testimonials"},
           ],
         },
         {
@@ -215,7 +216,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      copyrightText="© 2024 P3&E Street Eats. All rights reserved."
+      ariaLabel="Site footer"
     />
   </div>
       </ReactLenis>
