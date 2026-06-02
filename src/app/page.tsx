@@ -42,8 +42,8 @@ export default function LandingPage() {
         {
           name: "Order Now",          id: "#contact"},
       ]}
-      logoSrc="https://img.b2bpic.net/50s-diner-cartoon/diner-logo.png"
-      logoAlt="P3&E Street Eats Cartoon Logo"
+      logoSrc="http://img.b2bpic.net/free-photo/realistic-burger-packaging-mockup_58466-18336.jpg"
+      logoAlt="P3&E Street Eats Logo"
       brandName="P3&E Street Eats"
       button={{
         text: "Find Us"}}
@@ -60,8 +60,8 @@ export default function LandingPage() {
         {
           text: "Find Our Truck",          href: "#contact"},
       ]}
-      imageSrc="https://img.b2bpic.net/50s-diner-cartoon/food-truck-hero.png"
-      imageAlt="P3&E Street Eats cartoon food truck with a delicious burger hero shot, 50s diner theme"
+      imageSrc="http://img.b2bpic.net/free-photo/young-woman-eating-burger-street-cafe-close-up_169016-43761.jpg"
+      imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
       showDimOverlay={true}
     />
   </div>
@@ -72,8 +72,8 @@ export default function LandingPage() {
       title="Our Smash-tastic Story"
       description="Born from a passion for perfect patties and a love for local communities, P3&E Street Eats is more than just a food truck – it's a flavor revolution! We believe in fresh, quality ingredients and the simple joy of a perfectly seared, juicy burger. Join us on our journey to smash blandness and bring smiles!"
       tag="About Us"
-      imageSrc="https://img.b2bpic.net/50s-diner-cartoon/chef-grilling.png"
-      imageAlt="Cartoon 50s style chef preparing smash burgers on a griddle"
+      imageSrc="http://img.b2bpic.net/free-photo/grilled-salami-slices-grill-grid-wooden-table-with-vegetable_114579-88655.jpg"
+      imageAlt="Chef preparing smash burgers on a griddle"
     />
   </div>
 
@@ -84,11 +84,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "f1",          title: "Fresh, Local Ingredients",          description: "We source the freshest produce and premium beef from local suppliers, ensuring quality and supporting our community.",          tag: "Quality",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/fresh-ingredients.png",          imageAlt: "Cartoon fresh vegetables and burger ingredients"},
+          id: "f1",          title: "Fresh, Local Ingredients",          description: "We source the freshest produce and premium beef from local suppliers, ensuring quality and supporting our community.",          tag: "Quality",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-cheeseburger-hot-dog_23-2148258459.jpg",          imageAlt: "Fresh vegetables and burger ingredients"},
         {
-          id: "f2",          title: "Signature Secret Sauce",          description: "Our legendary house-made sauce adds an irresistible tangy kick that perfectly complements every smash burger. You'll crave it!",          tag: "Flavor",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/secret-sauce.png",          imageAlt: "Cartoon secret sauce being drizzled on a burger"},
+          id: "f2",          title: "Signature Secret Sauce",          description: "Our legendary house-made sauce adds an irresistible tangy kick that perfectly complements every smash burger. You'll crave it!",          tag: "Flavor",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-cheesy-meat-burger-with-seasonings-dark-surface-bun-sandwich-fast-food_140725-82151.jpg",          imageAlt: "Secret sauce being drizzled on a burger"},
         {
-          id: "f3",          title: "The Perfect Sizzle & Sear",          description: "Each patty is meticulously smashed on a scorching griddle, creating a caramelized crust and locking in maximum juiciness.",          tag: "Technique",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/sizzling-patty.png",          imageAlt: "Cartoon perfectly seared smash burger patty on a griddle"},
+          id: "f3",          title: "The Perfect Sizzle & Sear",          description: "Each patty is meticulously smashed on a scorching griddle, creating a caramelized crust and locking in maximum juiciness.",          tag: "Technique",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-cutting-burger-with-egg_23-2148678847.jpg",          imageAlt: "Perfectly seared smash burger patty on a griddle"},
       ]}
       title="Why Our Smash Burgers Reign Supreme"
       description="Discover the delicious difference in every bite – from sizzling sear to gourmet toppings."
@@ -103,17 +103,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "The Classic Smash",          price: "$12.00",          variant: "Single/Double Patty",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/classic-burger.png",          imageAlt: "Cartoon classic smash burger with cheese, lettuce, and tomato"},
+          id: "p1",          name: "The Classic Smash",          price: "$12.00",          variant: "Single/Double Patty",          imageSrc: "http://img.b2bpic.net/free-photo/hands-holding-tasty-cheeseburger_23-2148374911.jpg",          imageAlt: "A classic smash burger with cheese, lettuce, and tomato"},
         {
-          id: "p2",          name: "Spicy Jalapeño Smash",          price: "$13.50",          variant: "With Pepper Jack Cheese",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/spicy-burger.png",          imageAlt: "Cartoon spicy smash burger with jalapeños and melted cheese"},
+          id: "p2",          name: "Spicy Jalapeño Smash",          price: "$13.50",          variant: "With Pepper Jack Cheese",          imageSrc: "http://img.b2bpic.net/free-photo/creative-arrangement-with-hamburger_23-2148614114.jpg",          imageAlt: "A spicy smash burger with jalapeños and melted cheese"},
         {
-          id: "p3",          name: "BBQ Bacon Beast",          price: "$14.00",          variant: "Smoky BBQ & Crispy Bacon",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/bbq-bacon-burger.png",          imageAlt: "Cartoon large BBQ bacon smash burger with onion rings"},
+          id: "p3",          name: "BBQ Bacon Beast",          price: "$14.00",          variant: "Smoky BBQ & Crispy Bacon",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-gourmet-cheeseburger-with-fresh-vegetables-fries-generated-by-ai_188544-38732.jpg",          imageAlt: "A large BBQ bacon smash burger with onion rings"},
         {
-          id: "p4",          name: "Mushroom Swiss Delight",          price: "$13.00",          variant: "Sautéed Mushrooms & Swiss",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/mushroom-swiss-burger.png",          imageAlt: "Cartoon smash burger topped with sautéed mushrooms and Swiss cheese"},
+          id: "p4",          name: "Mushroom Swiss Delight",          price: "$13.00",          variant: "Sautéed Mushrooms & Swiss",          imageSrc: "http://img.b2bpic.net/free-photo/street-food-still-life_23-2151535236.jpg",          imageAlt: "A smash burger topped with sautéed mushrooms and Swiss cheese"},
         {
-          id: "p5",          name: "The Garden Smash",          price: "$11.00",          variant: "Plant-Based Patty",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/garden-burger.png",          imageAlt: "Cartoon vegetarian smash burger with fresh toppings"},
+          id: "p5",          name: "The Garden Smash",          price: "$11.00",          variant: "Plant-Based Patty",          imageSrc: "http://img.b2bpic.net/free-photo/hamburger-chopping-board-with-spinach-tomatoes-avocado-wooden-board_23-2148165610.jpg",          imageAlt: "A vegetarian smash burger with fresh toppings"},
         {
-          id: "p6",          name: "Loaded Chili Cheese Fries",          price: "$8.00",          variant: "Crispy & Delicious",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/chili-fries.png",          imageAlt: "Cartoon golden loaded chili cheese fries"},
+          id: "p6",          name: "Loaded Chili Cheese Fries",          price: "$8.00",          variant: "Crispy & Delicious",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-french-fries-with-sauces-dark-background-fast-food-meal-potato-dish-burger_140725-96448.jpg",          imageAlt: "Golden loaded chili cheese fries"},
       ]}
       title="Our Smash-tastic Menu"
       description="Prepare your taste buds for an unforgettable burger experience. Each creation is a work of art!"
@@ -151,15 +151,15 @@ export default function LandingPage() {
       topMarqueeDirection="left"
       testimonials={[
         {
-          id: "t1",          name: "Burger Bob", handle: "@burgerbob", testimonial: "Absolutely incredible! The patties are juicy, the sauce is to die for, and the bun is perfectly toasted. A must-try!",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/avatar-bob.png",          imageAlt: "Cartoon avatar of Burger Bob"},
+          id: "t1",          name: "Burger Bob", handle: "@burgerbob", testimonial: "Absolutely incredible! The patties are juicy, the sauce is to die for, and the bun is perfectly toasted. A must-try!",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-taking-selfie-photo-winking_1262-18343.jpg",          imageAlt: "Bob's avatar"},
         {
-          id: "t2",          name: "Patty Queen", handle: "@pattyqueen", testimonial: "Every bite is a burst of flavor. The Spicy Jalapeño Smash is my favorite, perfectly balanced heat. Can't wait for my next visit!",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/avatar-patty.png",          imageAlt: "Cartoon avatar of Patty Queen"},
+          id: "t2",          name: "Patty Queen", handle: "@pattyqueen", testimonial: "Every bite is a burst of flavor. The Spicy Jalapeño Smash is my favorite, perfectly balanced heat. Can't wait for my next visit!",          imageSrc: "http://img.b2bpic.net/free-photo/black-man-casual-wear-checks-email-reads-world-news-electronic-device-drinks-morning-coffee-croissants_273609-8909.jpg",          imageAlt: "Patty's avatar"},
         {
-          id: "t3",          name: "Grill Master Mike", handle: "@grillmikester", testimonial: "The retro theme is spot on, and the burgers transport you straight to a classic diner. High quality ingredients, friendly service. My new go-to!",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/avatar-mike.png",          imageAlt: "Cartoon avatar of Grill Master Mike"},
+          id: "t3",          name: "Grill Master Mike", handle: "@grillmikester", testimonial: "The retro theme is spot on, and the burgers transport you straight to a classic diner. High quality ingredients, friendly service. My new go-to!",          imageSrc: "http://img.b2bpic.net/free-photo/crazy-man-funny-expression_1194-3202.jpg",          imageAlt: "Mike's avatar"},
         {
-          id: "t4",          name: "Hungry Holly", handle: "@hollyeats", testimonial: "I'm obsessed with the BBQ Bacon Beast! It's huge, flavorful, and incredibly satisfying. Worth every penny and every calorie!",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/avatar-holly.png",          imageAlt: "Cartoon avatar of Hungry Holly"},
+          id: "t4",          name: "Hungry Holly", handle: "@hollyeats", testimonial: "I'm obsessed with the BBQ Bacon Beast! It's huge, flavorful, and incredibly satisfying. Worth every penny and every calorie!",          imageSrc: "http://img.b2bpic.net/free-photo/woman-chef-standing-with-crossed-arms-white-uniform-looking-confident_176474-43376.jpg",          imageAlt: "Holly's avatar"},
         {
-          id: "t5",          name: "Veggie Valerie", handle: "@valerieveggie", testimonial: "As a vegetarian, finding a delicious smash burger is a dream. The Garden Smash is fresh, packed with flavor, and totally hit the spot!",          imageSrc: "https://img.b2bpic.net/50s-diner-cartoon/avatar-valerie.png",          imageAlt: "Cartoon avatar of Veggie Valerie"},
+          id: "t5",          name: "Veggie Valerie", handle: "@valerieveggie", testimonial: "As a vegetarian, finding a delicious smash burger is a dream. The Garden Smash is fresh, packed with flavor, and totally hit the spot!",          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-brunette-woman-wearing-casual-sweater-standing-red-background-pointing-fingers-camera-with-happy-funny-face-good-energy-vibes_839833-6469.jpg",          imageAlt: "Valerie's avatar"},
       ]}
       title="What Our Fans Are Saying"
       description="Don't just take our word for it – hear from the happy bellies!"
