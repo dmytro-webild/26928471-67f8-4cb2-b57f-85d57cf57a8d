@@ -35,6 +35,7 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780370577435-0gj35pxu.png"
       imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
       showDimOverlay={true}
+      imageClassName="object-cover w-full h-full"
     />
   </div>
 
