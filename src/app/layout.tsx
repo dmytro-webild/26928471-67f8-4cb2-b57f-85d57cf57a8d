@@ -10,7 +10,7 @@ import { Public_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: "P3&E Street Eats - Creative Street Food Truck",
+  title: "P3&E Street Eats",
   description: "Experience the juiciest, most creative street food from our food truck. Fresh ingredients, secret sauces, and a super fun vibe!",
   keywords: ["smash burgers, food truck, retro diner, creative burgers, gourmet burgers, street food, delicious burgers, custom burgers, local food"],
   openGraph: {
