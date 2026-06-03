@@ -30,7 +30,7 @@ export default function LandingPage() {
       description="Get ready to experience the juiciest, most creative smash burgers on wheels! Hand-smashed patties, secret sauces, and fresh ingredients for a flavor explosion."
       buttons={[
         {
-          text: "Find Our Truck",          href: "#contact"},
+          text: "Find Our Truck",          href: "https://www.tiktok.com/@p3andestreeteats"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780453587950-epr9hkv3.png"
       imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
