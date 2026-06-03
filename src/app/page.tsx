@@ -56,7 +56,7 @@ export default function LandingPage() {
         {
           text: "Find Our Truck",          href: "https://www.tiktok.com/@p3andestreeteats"},
       ]}
-      imageSrc="https://images.unsplash.com/photo-1593575459345-d3c54a9c6c44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780456802619-5a4b6h3l.png"
       imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
       showDimOverlay={true}
       imageClassName="object-cover w-full h-full"
