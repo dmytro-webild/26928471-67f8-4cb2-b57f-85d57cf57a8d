@@ -61,7 +61,7 @@ export default function LandingPage() {
       showDimOverlay={true}
       imageClassName="object-cover w-full h-full"
       logoContainerClassName="-mt-10"
-      logoClassName="text-[#CC3333]"
+      logoClassName="text-[#CC3333] text-6xl md:text-7xl lg:text-8xl font-extrabold drop-shadow-md"
       descriptionClassName="text-[#CC3333]"
     />
   </div>
