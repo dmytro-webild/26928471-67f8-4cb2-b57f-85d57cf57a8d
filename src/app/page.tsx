@@ -19,7 +19,7 @@ export default function LandingPage() {
     //     headers: {
     //       'Content-Type': 'application/json',
     //     },
-    //     body: JSON.stringify({ email }),
+    //     body: JSON_END_PLACEHOLDER.stringify({ email }),
     //   });
     //   if (response.ok) {
     //     alert('Thank you for subscribing!');
@@ -60,6 +60,7 @@ export default function LandingPage() {
       imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
       showDimOverlay={true}
       imageClassName="object-cover w-full h-full"
+      logoContainerClassName="-mt-10"
     />
   </div>
 
