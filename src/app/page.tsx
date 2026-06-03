@@ -9,6 +9,30 @@ import MediaAbout from '@/components/sections/about/MediaAbout';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 
 export default function LandingPage() {
+  const handleSubmitEmail = async (email: string) => {
+    console.log("User subscribed with email:", email);
+    // In a real application, you would send this email to your backend here.
+    // Example: 
+    // try {
+    //   const response = await fetch('/api/subscribe', {
+    //     method: 'POST',
+    //     headers: {
+    //       'Content-Type': 'application/json',
+    //     },
+    //     body: JSON.stringify({ email }),
+    //   });
+    //   if (response.ok) {
+    //     alert('Thank you for subscribing!');
+    //   } else {
+    //     alert('Subscription failed. Please try again.');
+    //   }
+    // } catch (error) {
+    //   console.error('Subscription error:', error);
+    //   alert('An error occurred. Please try again later.');
+    // }
+    alert(`Thank you for subscribing with ${email}!`);
+  };
+
   return (
     <ThemeProvider
         defaultButtonVariant="elastic-effect"
@@ -88,7 +112,7 @@ export default function LandingPage() {
       inputPlaceholder="Enter your email"
       buttonText="Subscribe!"
       termsText="By subscribing you agree to receiving our promotional emails."
-      onSubmit={() => alert("Order submitted!")}
+      onSubmit={handleSubmitEmail}
     />
   </div>
 
