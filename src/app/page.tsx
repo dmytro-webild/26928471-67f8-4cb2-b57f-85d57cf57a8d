@@ -47,6 +47,8 @@ export default function LandingPage() {
       tag="About Us"
       imageSrc="http://img.b2bpic.net/free-photo/grilled-salami-slices-grill-grid-wooden-table-with-vegetable_114579-88655.jpg"
       imageAlt="Chef preparing smash burgers on a griddle"
+      className="relative z-10 -mt-[var(--height-12)] md:-mt-[var(--height-30)]"
+      textBoxClassName="pt-[var(--height-12)] md:pt-[var(--height-30)]"
     />
   </div>
 
