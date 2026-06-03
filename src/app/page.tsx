@@ -72,7 +72,7 @@ export default function LandingPage() {
       title="Our Smash-tastic Story"
       description="Born from a culinary passion and a love for local communities, P3&E Street Eats is more than just a food truck – it's a flavor revolution! We believe in fresh, quality ingredients and the simple joy of a perfectly seared, juicy burger. Join us on our journey to smash blandness and bring smiles!"
       tag="About Us"
-      imageSrc="http://img.b2bpic.net/free-photo/grilled-salami-slices-grill-grid-wooden-table-with-vegetable_114579-88655.jpg"
+      imageSrc="https://img.b2bpic.net/premium-photo/hand-black-glove-holds-burger-with-words-meat-burger-it_461960-2898.jpg?id=39354707"
       imageAlt="Chef preparing smash burgers on a griddle"
     />
   </div>
