@@ -39,7 +39,7 @@ export default function LandingPage() {
         defaultTextAnimation="entrance-slide"
         borderRadius="rounded"
         contentWidth="mediumSmall"
-        sizing="mediumSizeLargeTitles"
+        sizing="medium"
         background="noise"
         cardStyle="solid"
         primaryButtonStyle="flat"
