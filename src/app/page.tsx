@@ -88,7 +88,7 @@ export default function LandingPage() {
         {
           id: "p1",          name: "Classic Smash Paddy",          price: "",          variant: "Single/Double Smash Patty with Cheese, Pickles and our Famous Paddy Sauce.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780452491452-l6ueuhic.png",          imageAlt: "A classic smash burger with cheese, lettuce, and tomato"},
         {
-          id: "p2",          name: "Jersey Boy",          price: "",          variant: "Single/Double Smash Patty with Fried Taylor Ham, White American Cheese and a Fried Egg.",          imageSrc: "https://storage.googleapis.com/webild/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1781577340381-vdt4ou70.png",          imageAlt: "A spicy smash burger with jalapeños and melted cheese"},
+          id: "p2",          name: "Jersey Boy",          price: "",          variant: "Single/Double Smash Patty with Fried Taylor Ham, White American Cheese, a Fried Egg and Spicy Mayo.",          imageSrc: "https://storage.googleapis.com/webild/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1781577340381-vdt4ou70.png",          imageAlt: "A spicy smash burger with jalapeños and melted cheese"},
         {
           id: "p3",          name: "Carolina Crunch",          price: "",          variant: "Single/Double Smash Patty with Pimento Cheese, Fried Onions and Bacon Jam.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780373805633-bmjlgeet.png",          imageAlt: "A large BBQ bacon smash burger with onion rings"},
         {
