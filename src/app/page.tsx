@@ -11,25 +11,6 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 export default function LandingPage() {
   const handleSubmitEmail = async (email: string) => {
     console.log("User subscribed with email:", email);
-    // In a real application, you would send this email to your backend here.
-    // Example: 
-    // try {
-    //   const response = await fetch('/api/subscribe', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON_END_PLACEHOLDER.stringify({ email }),
-    //   });
-    //   if (response.ok) {
-    //     alert('Thank you for subscribing!');
-    //   } else {
-    //     alert('Subscription failed. Please try again.');
-    //   }
-    // } catch (error) {
-    //   console.error('Subscription error:', error);
-    //   alert('An error occurred. Please try again later.');
-    // }
     alert(`Thank you for subscribing with ${email}!`);
   };
 
@@ -59,7 +40,7 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780710796839-mfmtlte7.png"
       imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
       showDimOverlay={true}
-      imageClassName="object-cover w-full h-full"
+      imageClassName="object-contain md:object-cover w-full h-full min-h-[500px]"
       logoContainerClassName="-mt-10"
       logoClassName="text-[#CC3333] text-4xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-md"
       descriptionClassName="text-[#CC3333]"
