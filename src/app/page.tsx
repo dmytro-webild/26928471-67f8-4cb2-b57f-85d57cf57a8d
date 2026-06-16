@@ -40,7 +40,7 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1780710796839-mfmtlte7.png"
       imageAlt="P3&E Street Eats food truck with a delicious burger hero shot"
       showDimOverlay={true}
-      imageClassName="object-contain w-full h-full min-h-[500px] max-h-[500px] mt-12"
+      imageClassName="object-contain w-full h-full min-h-[600px] max-h-[600px] mt-12"
       logoContainerClassName="-mt-10"
       logoClassName="text-[#CC3333] text-4xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-md"
       descriptionClassName="text-[#CC3333]"
